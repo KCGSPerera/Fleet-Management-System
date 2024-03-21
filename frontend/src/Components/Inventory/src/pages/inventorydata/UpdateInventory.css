@@ -1,0 +1,162 @@
+.error-message{
+    color: red;
+}
+
+/* UpdateInventory.css */
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  /* Error message styles */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Button container styles */
+  /* .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  } */
+  
+  /* Button styles */
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Blue color for primary button */
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Red color for danger button */
+    color: #fff;
+  }
+  
+  /* Hover effect on buttons */
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  /* Customized styling for specific elements */
+  /* Example: Change the background color of the form input */
+  .form-control:focus {
+    border-color: #007bff; /* Blue border when input is focused */
+  }
+  
+  /* Example: Add a background color to the error message */
+  .error-message {
+    background-color: white; /* Light red background for error messages */
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+  /* Separate "Enter Product ID" input field */
+.form-group.label-input {
+    display: flex;
+    align-items: center;
+    background-color: #ffcccb; /* Change the background color to a light red */
+  }
+  
+  /* Label styles for the "Enter Product ID" field */
+  .form-group.label-input label {
+    font-weight: bold;
+    color: #333; /* Dark gray color for labels */
+    margin-right: 10px;
+  }
+  
+  /* Input styles for the "Enter Product ID" field */
+  .form-group.label-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Set the width of the modal content to 50% of the viewport width */
+  .modal-content {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 30%; /* Set the width to 50% */
+  }
+  
+  /* Style for the button */
+  .modal button {
+    background-color: white;
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+  }
+  
+  /* Hover effect for the button */
+  .modal button:hover {
+    background-color: #FF6961; /* Change to a different color on hover, e.g., blue */
+    color: white;
+  }
+  
+
+  /* Styles for the Back to Dashboard button */
+/* Styles for the Back to Dashboard button */
+.back-to-dashboard-link {
+  text-decoration: none;
+  text-align: left; /* Align the link to the left */
+  margin-left: 20px; /* Add some left margin for spacing */
+}
+
+.back-to-dashboard-button {
+  background-color: #007bff; /* Your button background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start; /* Align the button to the left */
+  align-items: center; /* Center vertically */
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+/* Hover effect for the button */
+.back-to-dashboard-button:hover {
+  background-color: #0056b3; /* Change to a different color on hover */
+}
+
+
+/* // Here onwards we are having the styles for buttons  */
+
+/* UpdateInventory.css */
+

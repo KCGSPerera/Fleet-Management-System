@@ -1,0 +1,137 @@
+/* Container styles */
+.container1 {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Create job button styles */
+.create-job-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Maintenance job list styles */
+.maintenance-job-list1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+/* Maintenance job box styles */
+.maintenance-job-box {
+  width: 33%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Default: Slightly transparent */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  cursor: pointer;
+  display: flex; /* Center-align child elements */
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+
+/* Priority-specific background colors */
+.maintenance-job-box.High {
+  background-color: rgba(216, 63, 49, 0.8); /* Slightly transparent red */
+}
+
+.maintenance-job-box.Completed {
+  background-color: rgba(0, 128, 0, 0.8); /* Slightly transparent green */
+}
+
+.maintenance-job-box.Medium {
+  background-color: rgba(238, 147, 34, 0.8); /* Slightly transparent orange */
+}
+
+.maintenance-job-box.Low {
+  background-color: rgba(233, 184, 36, 0.8); /* Slightly transparent yellow */
+}
+
+.maintenance-job-box.In {
+  background-color: rgba(33, 156, 144, 0.8); /* Slightly transparent teal */
+}
+
+/* When clicked, make it fully solid */
+.maintenance-job-box.clicked {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Text input styles */
+input[type="text1"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text1"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Action button styles */
+.action-button1 {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #25ca0f;
+  color: #000;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.action-button1:hover {
+  background-color: #3c7937;
+  color: #fff;
+}
+
+/* Job info and actions styles */
+.job-info1,
+.job-actions1 {
+  flex: 1;
+}
+
+.job-info1 div {
+  margin-bottom: 5px;
+  color: #111111;
+}
+
+.job-actions1 button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #0d2da0;
+  color: #ffffffe6;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.maintenance-job-box.High:hover {
+  background-color: #D83F31 /* Change the color on hover */
+}
+.maintenance-job-box.Low:hover {
+  background-color: #E9B824; /* Change the color on hover */
+}
+.maintenance-job-box.Medium:hover {
+  background-color: #EE9322; /* Change the color on hover */
+}
+.maintenance-job-box.Completed:hover {
+  background-color: rgba(5, 198, 43, 0.8); /* Change the color on hover */
+}
+.maintenance-job-box.In:hover {
+  background-color: #219C90; /* Change the color on hover */
+}

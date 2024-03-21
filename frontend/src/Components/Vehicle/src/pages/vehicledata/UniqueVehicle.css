@@ -1,0 +1,118 @@
+/* Assuming your existing class names */
+
+/* Container */
+.container-g20 {
+  max-width: 100%; /* Maximize the container width */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  height: 100vh; /* Center vertically on the viewport */
+}
+
+/* Heading Style */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form Style */
+form {
+  margin-bottom: 20px;
+  text-align: center; /* Center form elements */
+}
+
+/* Input and Button Styles */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"],
+.cancel-button-g21 {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dc3545; /* Red color for buttons */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover,
+.cancel-button-g21:hover {
+  background-color: #c82333; /* Darker red color on hover */
+}
+
+/* Product Box */
+.product-box-g22 {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center product details */
+}
+
+/* Product Detail Styles */
+.product-detail-g23 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Delete Button Style */
+.product-box-g22 button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dc3545; /* Red color for delete button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-box-g22 button:hover {
+  background-color: #c82333; /* Darker red color on hover */
+}
+
+/* Back to Dashboard Button Style */
+.dashboard-button-24 {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-button-24:hover {
+  background-color: #0056b3;
+}
+
+
+/* Assuming your existing CSS code */
+
+/* Input and Button Styles */
+/* ... (previous styles) */
+
+/* Change the color for the "Fetch Product Data" button */
+button[type="submit"] {
+  /* ... (previous styles) */
+  background-color: #007bff; /* Blue color for the "Fetch Product Data" button */
+}
+
+button[type="submit"]:hover {
+  /* ... (previous styles) */
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+

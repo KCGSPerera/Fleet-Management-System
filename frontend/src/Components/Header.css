@@ -1,0 +1,134 @@
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+}
+.logo {
+    position: absolute;
+    top: auto;
+    left: 31px;
+    width: 170px;
+    height: 76px;
+    object-fit:contain;
+  }
+.navbar-brand {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+
+/* .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; 
+  } */
+   
+
+/* Navbar brand styles */
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Navbar nav item styles */
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+/* Navbar nav link styles */
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+  padding: 10px 15px; /* Adjust padding for nav links */
+}
+
+/* Navbar nav link hover styles */
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+  background-color: rgba(0, 123, 255, 0.1); /* Background color on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Navbar toggler icon styles */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' width='30' height='30'%3e%3cpath stroke='rgba(0, 123, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22m-7 8h22'/%3e%3c/svg%3e");
+}
+
+/* Navbar toggler button styles */
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+
+
+
+
+
+ /* /* Header styles 
+.navbar {
+  background-color: #007BFF;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.navbar-brand, .nav-link {
+  color: white;
+  transition: color 0.3s; /* Smooth transition for color change 
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #f0f0f0;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item.active .nav-link {
+  font-weight: bold;
+}
+ */
+
+.navbar-nav li {
+  margin-right: 40px;
+}
+
+.navbar-nav a {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.navbar-nav a:hover {
+  color: #1DA1F2;
+}
+
